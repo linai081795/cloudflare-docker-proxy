@@ -45,11 +45,11 @@ We will provide updates as soon as more information becomes available.
    - add more records and modify the config as you need
    ```javascript
    const routes = {
-     "docker.linaicode.store": "https://registry-1.docker.io",
-     "quay.linaicode.store": "https://quay.io",
-     "gcr.linaicode.store": "https://k8s.gcr.io",
-     "k8s-gcr.linaicode.store": "https://k8s.gcr.io",
-     "ghcr.linaicode.store": "https://ghcr.io",
+     "docker.linaicode.online": "https://registry-1.docker.io",
+     "quay.linaicode.online": "https://quay.io",
+     "gcr.linaicode.online": "https://k8s.gcr.io",
+     "k8s-gcr.linaicode.online": "https://k8s.gcr.io",
+     "ghcr.linaicode.online": "https://ghcr.io",
    };
    ```
 
