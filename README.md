@@ -5,7 +5,16 @@
 
 # cloudflare-docker-proxy
 
-![deploy](https://github.com/linai081795/cloudflare-docker-proxy/actions/workflows/deploy.yaml/badge.svg)
+> ### ⚠️ **Important Notice**
+> <span style="color:#d73a49;font-weight:bold">Docker Hub is rate-limiting Cloudflare Worker IPs, causing frequent <code>429</code> errors.</span>  
+> <span style="color:#d73a49;font-weight:bold">This project is currently NOT recommended for production use.</span>
+
+
+Due to the current instability, this project is not recommended for production use.
+We will provide updates as soon as more information becomes available.
+
+
+![deploy](https://github.com/ciiiii/cloudflare-docker-proxy/actions/workflows/deploy.yaml/badge.svg)
 
 [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/linai081795/cloudflare-docker-proxy)
 
@@ -14,13 +23,13 @@
 ## Deploy
 [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/lixd/cloudflare-docker-proxy)
 
-1. fork this project
-2. modify the link of the above button to your fork url
-3. click the button, you will be redirected to the deploy page
+1. click the "Deploy With Workers" button
+2. follow the instructions to fork and deploy
+3. update routes as you requirement
 
 [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/linai081795/cloudflare-docker-proxy)
 
-## Config tutorial
+## Routes configuration tutorial
 
 1. use cloudflare worker host: only support proxy one registry
    ```javascript
